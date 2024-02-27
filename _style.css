@@ -1,0 +1,107 @@
+p{
+    text-align: justify;
+}
+
+
+
+.c-title{
+    color: var(--secondary);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+section{
+    /* border-radius: 8px;
+    -webkit-box-shadow: 10px 10px 44px -12px rgba(140,103,2,1);
+    -moz-box-shadow: 10px 10px 44px -12px rgba(140,103,2,1);
+    box-shadow: 10px 10px 44px -12px rgba(140,103,2,1); */
+    
+}
+
+.c-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .5rem;
+    max-width: 70rem;
+    padding: 1.563rem;
+    width: 70rem;
+
+    background-position: 25% 75%;
+    background: rgb(0,0,0);
+    background: linear-gradient(to left,  rgb(223, 213, 213), rgba(0,0,0));
+      
+}
+
+.c-header{
+    max-width: 35rem;
+    height: 22.5rem;
+    width: 35rem;
+}
+
+.c-figure{
+   
+    max-width: 560px;
+}
+
+img{
+    width: 520px;
+    
+}
+
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .5;
+    
+    gap: .6rem;
+    max-width: 70rem;
+    padding: 1.563rem;
+    width: 70rem;
+}
+
+.areas{
+    padding: 20px;
+    width: 50%;
+}
+
+.alu_shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+    max-width: 70rem;
+    padding: 1.563rem;
+    width: 70rem;
+}
+
+h3{
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
+hr{
+    width: 220px;
+    height: 5px;
+    background-color:var(--secondary) ;
+    border: 5px, solid, var(--secondary);
+}
+
+p{
+    padding-top: 10px;
+    
+}
+
+footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+

@@ -1,0 +1,29 @@
+.main-section{
+    display: flex;
+    align-items: center;   
+    
+    height: 78.98894154818325vh;
+    width: 100%;
+    background-color: antiquewhite;
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    background-image: linear-gradient(to right, #2e2e2e  58%,  transparent), url(bg-rafaelreis.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.c-header{
+    width: 50%;
+}
+
+.c-figure {
+    width: 50%;
+}
+
+.rafa{
+    width: 70%;
+    height: 70%;
+}

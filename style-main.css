@@ -1,0 +1,99 @@
+.c-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2e2e2e ;
+    padding-top: 4.375rem;
+    /* padding-left: 4.375rem;
+    padding-right: 4.375rem; */
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    width: 100%;
+}
+
+.areas{
+
+    width: 50%;
+    
+}
+
+.r-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;  
+    
+    height: 40.98894154818325vh;
+    width: 100%;
+    background-color: antiquewhite;
+    margin-top: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.bg-imobiliario{
+    background-image: linear-gradient(to left, #2e2e2e  48%,  transparent), url(bg-imobiliario.png);
+    background-attachment: fixed;
+}
+
+.direita{
+    margin-left: 105px;
+    text-align:  justify;
+    padding: 2px;
+}
+
+hr{
+    margin-bottom: 15px;
+    border: none;
+    height: 1px;
+    background-color: var(--secondary);
+}
+
+.l-section{
+    display: flex;
+    align-items: center;   
+    
+    height: 40.98894154818325vh;
+    width: 100%;
+    background-color: antiquewhite;
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.bg-condominial{
+    background-image: linear-gradient(to right, #2e2e2e  58%,  transparent), url(bg-condominial.jpg);
+    background-attachment: fixed;
+}
+
+.bg-trabalho{
+    background-image: linear-gradient(to left, #2e2e2e  48%,  transparent), url(bg-trabalho.jpg);
+    background-attachment: fixed;
+}
+
+.bg-consumo{
+    background-image: linear-gradient(to right, #2e2e2e  58%,  transparent), url(bg-consumidor.png);
+    background-attachment: fixed;
+}
+
+.alu_shop{
+    background-image: linear-gradient(to left, #2e2e2e  48%,  transparent), url(bg-shopcenter.jpg);
+    background-attachment: fixed;
+}
+
+.text-section{
+    text-align: justify;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+

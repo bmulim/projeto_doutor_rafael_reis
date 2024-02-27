@@ -1,0 +1,37 @@
+.barra-menu{
+    width: 100%;
+    /* height: 60px; */
+    background-color: #2e2e2e ;
+    background: linear-gradient(to bottom, rgb(233, 232, 232)  16%, #2e2e2e );
+    position: fixed;
+}
+nav{
+    max-width: 70rem;
+    margin: auto;
+    padding: 0rem 10rem 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pr-menu > li {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.h-logo{
+    width: 3.75rem;
+    height: 3.85rem;
+}
+
+.pr-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.3rem;
+}
+
+.btn-wtapp{
+    padding: 0.3rem;
+}
